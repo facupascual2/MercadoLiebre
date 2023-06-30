@@ -1,0 +1,262 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    
+    background-color: #fbbc02;
+    border-top: 3px solid black;
+    padding-bottom: 4px;
+
+}
+.logo{
+    width: 30%;
+    height: 20%;
+    padding: 25px 40px 30px 45px;
+    margin-left: -80px;
+    }
+
+.image{
+    width: 100%;
+    }
+
+    .product:hover {
+font-size: 18px;
+    }
+
+
+.product{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    margin-left: 2%;
+    position: relative;
+    bottom: -20px;
+    }
+
+.opinions:hover {
+    font-size: 18px;
+}
+
+.opinions{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 690px;
+    bottom: 80px;
+ }
+ .account:hover {
+    font-size: 18px;
+}
+
+.account{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+   margin-left: 950px;
+   bottom: 40px;
+   
+}
+.Ingresá:hover {
+    font-size: 18px;
+}
+
+
+hr{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.foto1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: #3483fa;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s ease-in;
+    
+} 
+.card{
+flex: 1;
+height: 500%;
+margin: 10px;
+padding: 11px;
+border-radius: 10px;
+border: 1px solid #ccc;
+}
+
+    .detalle{
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+   transform: translate(1%, 10%);
+    }
+
+    .padre {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        text-align: center;
+    }
+    
+
+
+    .card2 {
+        flex: 1;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 3px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .foto2 img {
+    
+        width: 55%;
+        height: 50%;
+        object-fit: contain;
+        margin-top: 15px;
+    }
+    
+    .nombre2 {
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+    
+
+.img-form{
+    height: 70px;
+    width: 300px;
+    margin: auto;
+    top: 10px;
+}
+
+h2{
+    font-family: sans-serif;
+    text-align: center;
+
+   }
+   .sub{
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(74, 0, 143);
+    margin-left: 70px;
+    color: white;
+    font-family: sans-serif;
+}
+form{
+    border-radius: 8px;
+    position: relative;
+    margin: auto;
+    top: 150px;
+    width: 400px;
+    background-color: aliceblue;
+}
+.ingresa-form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    margin-left: 1000px;
+    margin-top: -10px;
+}
+.flexFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bxl-facebook-square {
+    color: #3b5998;
+}
+
+.bxl-instagram-alt {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.bxl-linkedin-square {
+    color: #0e76a8;
+}
+
+.bxl-youtube {
+    color: red;
+}
+
+.linkFooter {
+    text-decoration: none;
+    color: black;
+}
+
+.lineaVerticalIzq {
+    border-left: 1px solid black;
+    height: 100%;
+    left: 50%;
+}
+
+.lineaVerticalDer {
+    border-right: 1px solid black;
+    height: 100%;
+    right: 50%;
+}
+.padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+

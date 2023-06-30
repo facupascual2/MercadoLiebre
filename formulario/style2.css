@@ -1,0 +1,37 @@
+body{
+    background-color: #fbbc02;
+}
+img{
+    border-radius: 10px;
+    height: 60px;
+    margin-left: 100px;
+        margin-top: 50px;
+}
+
+form{
+    border-radius: 8px;
+    position: relative;
+    margin: auto;
+    top: 150px;
+    width: 400px;
+    background-color: aliceblue;
+}
+h2{
+    font-family: sans-serif;
+    text-align: center;
+}
+.for{
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+
+}
+.sub{
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(74, 0, 143);
+    margin-left: 70px;
+    color: white;
+    font-family: sans-serif;
+}
